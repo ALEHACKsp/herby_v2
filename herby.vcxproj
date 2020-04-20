@@ -220,6 +220,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="csgo\features\Gui.cpp" />
+    <ClCompile Include="csgo\hooks\functions\create_move.cpp" />
     <ClCompile Include="csgo\hooks\functions\end_scene.cpp" />
     <ClCompile Include="csgo\hooks\functions\reset.cpp" />
     <ClCompile Include="csgo\hooks\hooks.cpp" />

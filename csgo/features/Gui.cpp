@@ -1,5 +1,6 @@
 #include "Gui.hpp"
 #include "csgo/hooks/hooks.hpp"
+#include "csgo/features/Misc.hpp"
 extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 void GUI::Initialize()
 {

@@ -108,6 +108,7 @@
     <ClCompile Include="valve\helpers\Input.cpp" />
     <ClCompile Include="valve\helpers\System.cpp" />
     <ClCompile Include="csgo\hooks\functions\end_scene.cpp" />
+    <ClCompile Include="csgo\hooks\functions\create_move.cpp" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

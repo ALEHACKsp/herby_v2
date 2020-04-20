@@ -1,8 +1,7 @@
 #pragma once
-
 #include "IHandleEntity.hpp"
+#include "ICollideable.hpp"
 
-class ICollideable;
 class IClientNetworkable;
 class IClientRenderable;
 class IClientEntity;

@@ -146,7 +146,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="csgo\features\Gui.hpp" />
+    <ClInclude Include="csgo\features\Visuals.hpp" />
     <ClInclude Include="csgo\hooks\hooks.hpp" />
+    <ClInclude Include="csgo\options.h" />
     <ClInclude Include="csgo\renderer\renderer.hpp" />
     <ClInclude Include="imgui\imconfig.h" />
     <ClInclude Include="imgui\imgui.h" />
@@ -190,6 +192,7 @@
     <ClInclude Include="valve\source_engine\IClientRenderable.hpp" />
     <ClInclude Include="valve\source_engine\IClientThinkable.hpp" />
     <ClInclude Include="valve\source_engine\IClientUnknown.hpp" />
+    <ClInclude Include="valve\source_engine\ICollideable.hpp" />
     <ClInclude Include="valve\source_engine\IConVar.hpp" />
     <ClInclude Include="valve\source_engine\ICvar.hpp" />
     <ClInclude Include="valve\source_engine\IEngineSound.hpp" />
@@ -220,6 +223,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="csgo\features\Gui.cpp" />
+    <ClCompile Include="csgo\features\Visuals.cpp" />
     <ClCompile Include="csgo\hooks\functions\create_move.cpp" />
     <ClCompile Include="csgo\hooks\functions\end_scene.cpp" />
     <ClCompile Include="csgo\hooks\functions\reset.cpp" />

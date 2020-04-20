@@ -73,6 +73,9 @@
     <ClInclude Include="csgo\features\Gui.hpp" />
     <ClInclude Include="valve\helpers\Input.hpp" />
     <ClInclude Include="valve\helpers\System.hpp" />
+    <ClInclude Include="csgo\features\Visuals.hpp" />
+    <ClInclude Include="valve\source_engine\ICollideable.hpp" />
+    <ClInclude Include="csgo\options.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="valve\source_engine\characterset.cpp" />
@@ -109,6 +112,7 @@
     <ClCompile Include="valve\helpers\System.cpp" />
     <ClCompile Include="csgo\hooks\functions\end_scene.cpp" />
     <ClCompile Include="csgo\hooks\functions\create_move.cpp" />
+    <ClCompile Include="csgo\features\Visuals.cpp" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

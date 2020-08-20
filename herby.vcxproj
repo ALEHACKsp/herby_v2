@@ -151,9 +151,6 @@
     <ClInclude Include="csgo\engine\renderer.hpp" />
     <ClInclude Include="csgo\features\gui.hpp" />
     <ClInclude Include="csgo\hook\procedure.hpp" />
-    <ClInclude Include="helpers\input.hpp" />
-    <ClInclude Include="helpers\memory.hpp" />
-    <ClInclude Include="helpers\Singleton.hpp" />
     <ClInclude Include="sdk\classes\bf_read.hpp" />
     <ClInclude Include="sdk\classes\BSPFlags.hpp" />
     <ClInclude Include="sdk\classes\CClientState.hpp" />
@@ -229,7 +226,6 @@
     <ClCompile Include="csgo\features\gui.cpp" />
     <ClCompile Include="csgo\hook\present.cpp" />
     <ClCompile Include="csgo\hook\reset.cpp" />
-    <ClCompile Include="helpers\memory.cpp" />
     <ClCompile Include="main\entry.cpp" />
     <ClCompile Include="sdk\classes\crc\crc.cpp" />
     <ClCompile Include="sdk\classes\md5\md5.cpp" />
